@@ -1,0 +1,10 @@
+
+    <html>
+    <head><title>MAK LIMAH Report</title></head>
+    <body>
+    <h1>HexaTester - PENTESTING Report</h1>
+    <p>Target: https://ryucode.com</p>
+    <p>Timestamp: 1761188311</p>
+    <table border="1">
+    <tr><th>Module</th><th>Severity</th><th>Details</th></tr>
+    <tr><td>Headers</td><td>CRITICAL</td><td>6 critical headers missing: HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy</td></tr><tr><td>Fingerprinting</td><td>INFO</td><td>Server: cloudflare, Powered-By: , Generator: </td></tr><tr><td>CORS</td><td>INFO</td><td>Error: 'SafeSession' object has no attribute 'options'</td></tr><tr><td>Cookies</td><td>HIGH</td><td>Cookie XSRF-TOKEN not HttpOnly</td></tr><tr><td>BAC</td><td>CRITICAL</td><td>Access to /admin without auth</td></tr><tr><td>Rate Limit</td><td>HIGH</td><td>No rate limiting</td></tr><tr><td>Open Redirect</td><td>HIGH</td><td>Open redirect via redirect</td></tr><tr><td>JS Analyzer</td><td>HIGH</td><td>Potential secret in https://www.googletagmanager.com/gtag/js?id=G-N6RSP8PN71, Potential secret in https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js, Potential secret in https://cdnjs.cloudflare.com/ajax/libs/prism/1.30.0/prism.min.js, Potential secret in https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js</td></tr><tr><td>IDOR</td><td>HIGH</td><td>Potential IDOR via id</td></tr></table></body></html>
